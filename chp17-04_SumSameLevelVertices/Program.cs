@@ -219,7 +219,7 @@ namespace LevelSums
                     int leafValue = int.Parse(leafs[0]);
                     currentNode.LeftChild = new BinaryTreeNode(leafValue);
                 }
-
+                
                 if (leafs[1] != "x")
                 {
                     int leafValue = int.Parse(leafs[1]);
